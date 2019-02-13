@@ -1,0 +1,14 @@
+# Ignore compiled files
+*.sh
+*.pyc
+stdout.log
+# Ignore exteral imports for experiments
+external/*
+# Ignore log folders
+save/*
+launch/*yaml
+__pycache__/
+figs/*
+logs/*
+baselines/*txt
+baselines/*log

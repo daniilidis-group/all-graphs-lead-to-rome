@@ -68,7 +68,7 @@ The data utilities (`data_util`) handles the generation, saving, and loading of 
 
 The `models` folder takes in the output of the datasets and then puts it through a [Sonnet](https://github.com/deepmind/sonnet) module based network. The modules all require as input the graph laplacian and the initial node embeddings, the sizes of which should be known in advance. The exact nature of the modules can be safely abstracted, so this is fairly modular.
 
-The training and testing is fairly straightforward - once the dataset is generated and saved on disk and the model chosen, you specify the options of how you want to train it (as shown in the example above) and run it. The above example is an example of a typical run, and can be used as starting point.
+The training and testing is fairly straightforward - once the dataset is generated and saved on disk and the model chosen, you specify the options of how you want to train it (as shown in the example above) and run it. The above example is an example of a typical run, and can be used as starting point. To test the baselines, you will need MATLAB - they are all in the `baselines` folder.
 
 
 # Questions
